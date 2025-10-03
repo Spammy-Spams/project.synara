@@ -1,9 +1,8 @@
-javascript
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Replace with your actual GitHub repo name
+// Correct base for GitHub Pages deployment
 export default defineConfig({
   plugins: [react()],
-  base: "/my-synara-website/", 
+  base: "/project.synara/", 
 });
